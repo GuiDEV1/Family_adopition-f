@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="fundo">
+    <div id="area-menu">
+        <div>
+            <h1>Family <span class = "cor2">Adopition</span></h1>
+        </div>
+        <div id="menu">
+            <a href="index.html">Home |</a>
+            <a href="Sobrenos.html">Sobre nós |</a>
+            <a href="Nossamissão.html">Nossa missão |</a>
+            <a href="cadastro.html">Cadastra-se </a> 
+        </div>
+    </div>
+
+    <h2>Cadastra- <span class="cor2">se</span></h2>
+
+    <div id="forms">
+        <form name="forms" method="get" action="">
+            <fieldset>
+                <legend><h2>cadas<span class="cor2">tro</span></h2></legend>
+                Login:  <input type="text" name="login" required placeholder="Digite um login"><br><br>
+                Senha:  <input type="password" name="senha" required placeholder="Digite uma senha"><br><br>
+                Número: <input type="number" name="numero"><br><br>
+                Qual faixa de idade tem interesse.<br>
+                <input type="checkbox" name="pequeno" value="pequeno" checked> 0 a 4 anos de idade.
+                <input type="checkbox" name="crianca" value="crianca"> 5 a 8 anos de idade. 
+                <input type="checkbox" name="grandinho" value="grandinho"> 9 a 14 anos de idade.
+                <input type="checkbox" name="sem preferência" value="sem preferência"> Sem preferência.<br><br>
+
+                Selecione sua uf <select name="uf">
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="MG">MG</option>
+                </select><br><br>
+
+                Digite sua observação:<br>
+                <textarea name="obs" id="" cols="30" rows="10"></textarea><br><br>
+
+                <input type="submit" value="Cadastrar!"> <input value="Limpar" type="reset">
+
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
